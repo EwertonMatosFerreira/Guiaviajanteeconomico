@@ -16,6 +16,7 @@
 }
 
 *{
+
     border:0;
     margin:0;
     padding:0;
@@ -23,59 +24,9 @@
 }
 
 body{
+    color: var(--cor3);
+    font-family: var(--font-links);
     overflow-x: hidden;
-    color:var(--cor3);
-    font-family: var(--font-links);
-
-}
-
-.container{
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--cor1);
-    border-bottom: 1px solid var(--cor4);
-    height: 90px;
-}
-
-header{
-    width: 100%;
-    background: var(--cor1);
-    font-family: var(--font-links);
-    padding: 5px;
-}
-
-.logo{
-    width: 25%;    
-}
-
-.logo img{
-    width: 170px;
-  
-}
-
-.menu{
-    width: 100%;
-    margin-left:50px;
-    height:auto;
-
-}
-
-.menu nav a{
-    color:var(--cor4);
-    text-decoration: none;
-    padding:0px 50px;
-    font-family: var(--font-links);
-
-}
-
-.menu nav a:hover{
-    color:var(--cor2);
-    border: 0.4px solid var(--cor4);
-    border-radius: 30px;
-    background-color: var(--cor4);
 }
 
 main {
@@ -86,32 +37,85 @@ main {
     background-color: var(--cor2);
 }
 
-h2{
-    font-family: var(--fonte-padrao);
+h1{
     text-align: center;
 }
 
+h2{
+    font-family: var(--font-links);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 2.1rem;
+}
+
+.paragrafo{
+    font-size: 1.4rem;
+    font-family: var(--font-links);
+}
+
 p{
+    font-family: var(--font-links);
+    margin: 15px ;
+    text-indent:30px ;
+    text-align: center;
+}
+
+ul, li{
     margin: 15px;
 }
 
-div{
-    text-align: center; 
+div.video > iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width: 90%;
+    height: 90%;
 }
 
-aside{
-    width:auto;
-    height:auto;
-    padding: 15px;
+div.video{
+    background-color: var(--cor2);
+    margin: 0px -2px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
 }
 
-picture img{
-    display:block;
-    margin: auto;
-    width:50%;
-    height:auto;
+#botaoguia{
+    animation-name: button;
+    animation-duration: 61200s;
+    animation-delay: 61200s;
+}
+
+button{
+    height: 70px;width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#ffdd02;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor3);
+    
+  
 }
 
 footer{
-    background-color:var(--cor4) ;
+    height: 100px;
+    background-color:var(--cor2) ;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor2);
 }
