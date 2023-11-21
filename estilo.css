@@ -50,10 +50,11 @@ span{
     background-color: #00ff66;
     border: none;
     padding: 15px;
-    width: 50%;
+    width: 200px;
     border-radius: 10px;
     color: #ffffff;
     font-size: 15px;
+    border-color: #ffffff;
 }
 
 .button-pre-sell:hover{
