@@ -76,7 +76,7 @@ div.video > iframe{
 
 div.video{
     background-color: var(--cor2);
-    margin: 0px -2px 30px -20px;
+    margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -92,7 +92,7 @@ button{
     height: 70px;width: 40%;
     border-radius: 5px;
     text-align: center;
-    background-color:#ffdd02;
+    background-color:#00ff66;
     margin-left: auto;
     margin-right: auto;
     display: block;
