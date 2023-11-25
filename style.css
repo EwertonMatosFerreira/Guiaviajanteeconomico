@@ -120,3 +120,24 @@ footer a{
     text-decoration: none;
     color: var(--cor2);
 }
+
+
+button {
+    height: 70px;
+    width: 40%;
+    border-radius: 5px;
+    background-color:#2ae50d;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+ button:hover {
+    background-color: #e0e0e0;
+    cursor: grab;
+  }
