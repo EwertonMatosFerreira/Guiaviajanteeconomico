@@ -7,13 +7,17 @@
     <title>Responde as perguntas</title>
 </head>
 <body>
-    <div>
-        <h2>Responda as perguntas</h2>
-        <p>01 - Você tem ou conhece alguém que tem varizes?</p>
-        <input type="text" placeholder="Digite">
-        <br> <br>
-        <a href="quiz2.html"><button>Enviar</button></a>
-    </div>
+
+    <div class="quiz-container">
+        <h1>Responde as Perguntas:</h1>
+        <div class="question">01 - Você tem ou conhece alguém que tem varizes?</div>
+        <div class="options">
+          
+          
+    <a href="quiz2.html"><button class="option-btn" onclick="responder(true)">Sim</button></a>
+    <a href="quiz2.html"><button class="option-btn2" onclick="responder(false)">Não</button></a>
+    </div>    
+
 
 </body>
 </html>
