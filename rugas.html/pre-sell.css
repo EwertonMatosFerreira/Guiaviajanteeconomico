@@ -1,0 +1,30 @@
+.pre-sell{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    text-align: center;
+}
+
+.h1presell{
+    text-align: center;
+    color: #ffffff;
+}
+
+span{
+    color: yellow;
+}
+
+.option-btn {
+    padding: 10px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #2ae50d;
+    transition: background-color 0.3s;
+  }
+
+  .option-btn:hover {
+    background-color: #e0e0e0;
+  }
