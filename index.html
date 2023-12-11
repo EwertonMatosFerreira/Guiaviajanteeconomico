@@ -26,7 +26,7 @@
     src="https://www.facebook.com/tr?id=1478935099182549&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    
+
 </head>
 
 <body>
@@ -47,8 +47,14 @@
                 <p> 
                     <a href="/rugas.html/quiz1.html">&#x1F50A </a> Por favor, certifique-se que o som está Ligado
                 </p>
-
-                <a href="https://pay.kiwify.com.br/CrQAjMP"><button><div id="buy-button"          onclick="InitiateCheckoute()"> QUERO RESTAURAR MINHA PELE</div></button> </a>            
+   
+                <a href="https://pay.kiwify.com.br/CrQAjMP"> <button id="addToCartButton">QUERO RESTAURAR MINHA PELE</button> </a>
+<script type="text/javascript">
+  $('#addToCartButton').click(function() {
+    fbq('track', 'InitiateCheckout',{content_ids:['partner_event_id'],
+    eventref:'fb_oea' } );
+  });
+</script>        
             </article>
          </main>
     <footer>
