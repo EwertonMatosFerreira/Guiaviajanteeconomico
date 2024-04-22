@@ -90,10 +90,10 @@ div.video{
 }
 
 button{
-    height: 70px;width: 40PX;
+    height: 75px;width: 45PX;
     border-radius: 5px;
     text-align: center;
-    background-color:#2ae50d;
+    background-color:#05ca22;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -124,16 +124,16 @@ footer a{
 
 
 button {
-    height: 50px;
+    height: 60px;
     width: 300px;
     border-radius: 5px;
-    background-color:#2ae50d;
+    background-color:#06d23c;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-top: 90px;
     margin-bottom: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
